@@ -50,7 +50,6 @@ function App() {
   return (
     <>
       <Header />
-      
       <Howitworks />
       <Categories cat={cat}/>
       <Faq faqs={fq}/>

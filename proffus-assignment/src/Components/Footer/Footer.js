@@ -34,6 +34,8 @@ function Footer() {
       </div>
       <div className="msg">
         Sea Basket | All Rights Reserved | 2021 Copyright
+        <br />
+        Made by Pankaj chaudhary with love
       </div>
     </div>
   );
