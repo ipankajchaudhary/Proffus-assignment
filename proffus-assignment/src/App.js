@@ -13,6 +13,9 @@ import Categories from './Components/Category/Categories';
 function App() {
   const [data, setData] = useState({});
   const [faqs, setFaqs] = useState([]);
+  const [Havearead, setHavearead] = useState([]);
+  const [category, setCategory] = useState([]);
+  const [topicucantmiss, setTopicucantmiss] = useState([])
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   useEffect(() => {
@@ -30,7 +33,9 @@ function App() {
       }
       let actualData = await response.json();
       setData(actualData);
-      setFaqs(actualData.faqs);
+      setHavearead(actualData.Have_a_read);
+      setTopicucantmiss(actualData.topics_u_cant_miss);
+      setCategory(actualData.category);
       setError(null);
     } catch(err) {
       setError(err.message);
@@ -45,11 +50,11 @@ function App() {
       <Header />
       
       <Howitworks />
-      <Categories/>
+      <Categories category={category}/>
       <Faq faqs={faqs}/>
-      <Havearead />
-      <Topicsucantmiss />
-      <Footer/>
+      <Havearead Havearead={Havearead}/>
+      <Topicsucantmiss topicucantmiss={topicucantmiss}/>
+      <Footer/> 
       </>
   );
 }

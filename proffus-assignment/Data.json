@@ -1,43 +1,56 @@
 {
-    "faqs":[
-        {
-            "ques":"Velit venenatis pretium mattis consectetur massa pretium mattis ?",
-            "ans" : "Nulla amet ut massa sapien nibh. Sed quis sollicitudin ut senectus nisl adipiscing posuere et a. Tincidunt consectetur sapien pellentesque vitae, nulla vitae sed feugiat. Consectetur hendrerit massa felis, et. Cursus tortor ut fames sapien a vulputate amet malesuada."
-        },
-        {
-            "ques":"Velit venenatis pretium mattis consectetur massa pretium mattis ?",
-            "ans" : "Nulla amet ut massa sapien nibh. Sed quis sollicitudin ut senectus nisl adipiscing posuere et a. Tincidunt consectetur sapien pellentesque vitae, nulla vitae sed feugiat. Consectetur hendrerit massa felis, et. Cursus tortor ut fames sapien a vulputate amet malesuada."
-        },
-        {
-            "ques":"Velit venenatis pretium mattis consectetur massa pretium mattis ?",
-            "ans" : "Nulla amet ut massa sapien nibh. Sed quis sollicitudin ut senectus nisl adipiscing posuere et a. Tincidunt consectetur sapien pellentesque vitae, nulla vitae sed feugiat. Consectetur hendrerit massa felis, et. Cursus tortor ut fames sapien a vulputate amet malesuada."
-        }
-    ],
-    "Have-a-read" : [
-        {
-            "title" : "The Right Quality",
-            "desc" : "Nulla amet ut massa sapien nibh. Sed quis sollicitudin ut senectus nisl adipiscing posuere et a. Tincidunt consectetur sapien pellentesque vitae, nulla vitae sed feugiat. Consectetur hendrerit massa felis, et. Cursus tortor ut fames sapien a vulputate amet malesuada."
-        },
-        {
-            "title" : "The Right Quality",
-            "desc" : "Nulla amet ut massa sapien nibh. Sed quis sollicitudin ut senectus nisl adipiscing posuere et a. Tincidunt consectetur sapien pellentesque vitae, nulla vitae sed feugiat. Consectetur hendrerit massa felis, et. Cursus tortor ut fames sapien a vulputate amet malesuada."
-        },
-        {
-            "title" : "The Right Quality",
-            "desc" : "Nulla amet ut massa sapien nibh. Sed quis sollicitudin ut senectus nisl adipiscing posuere et a. Tincidunt consectetur sapien pellentesque vitae, nulla vitae sed feugiat. Consectetur hendrerit massa felis, et. Cursus tortor ut fames sapien a vulputate amet malesuada."
-        }
-    ],
-    "topics-u-cant-miss" : [
-        {
-            "title" : "Topics You Can't Miss",
-            "desc" : "Nulla amet ut massa sapien nibh. Sed quis sollicitudin ut senectus nisl adipiscing posuere et a. Tincidunt consectetur sapien pellentesque vitae, nulla vitae sed feugiat. Consectetur hendrerit massa felis, et. Cursus tortor ut fames sapien a vulputate amet malesuada.",
-            "img-url" : "url"
-        },
-        {
-            "title" : "how to clean/cut your seafood",
-            "desc" : "Nulla amet ut massa sapien nibh. Sed quis sollicitudin ut senectus nisl adipiscing posuere et a. Tincidunt consectetur sapien pellentesque vitae, nulla vitae sed feugiat. Consectetur hendrerit massa felis, et. Cursus tortor ut fames sapien a vulputate amet malesuada.",
-            "img-url" : "url"
-        }
-
-    ]
+  "faqs": [
+    {
+      "ques": "Velit venenatis pretium mattis consectetur massa pretium mattis ?",
+      "ans": "Nulla amet ut massa sapien nibh. Sed quis sollicitudin ut senectus nisl adipiscing posuere et a. Tincidunt consectetur sapien pellentesque vitae, nulla vitae sed feugiat. Consectetur hendrerit massa felis, et. Cursus tortor ut fames sapien a vulputate amet malesuada."
+    },
+    {
+      "ques": "Velit venenatis pretium mattis consectetur massa pretium mattis ?",
+      "ans": "Nulla amet ut massa sapien nibh. Sed quis sollicitudin ut senectus nisl adipiscing posuere et a. Tincidunt consectetur sapien pellentesque vitae, nulla vitae sed feugiat. Consectetur hendrerit massa felis, et. Cursus tortor ut fames sapien a vulputate amet malesuada."
+    },
+    {
+      "ques": "Velit venenatis pretium mattis consectetur massa pretium mattis ?",
+      "ans": "Nulla amet ut massa sapien nibh. Sed quis sollicitudin ut senectus nisl adipiscing posuere et a. Tincidunt consectetur sapien pellentesque vitae, nulla vitae sed feugiat. Consectetur hendrerit massa felis, et. Cursus tortor ut fames sapien a vulputate amet malesuada."
+    }
+  ],
+  "Have_a_read": [
+    {
+      "title": "The Right Quality",
+      "desc": "Nulla amet ut massa sapien nibh. Sed quis sollicitudin ut senectus nisl adipiscing posuere et a. Tincidunt consectetur sapien pellentesque vitae, nulla vitae sed feugiat. Consectetur hendrerit massa felis, et. Cursus tortor ut fames sapien a vulputate amet malesuada."
+    },
+    {
+      "title": "The Right Quality",
+      "desc": "Nulla amet ut massa sapien nibh. Sed quis sollicitudin ut senectus nisl adipiscing posuere et a. Tincidunt consectetur sapien pellentesque vitae, nulla vitae sed feugiat. Consectetur hendrerit massa felis, et. Cursus tortor ut fames sapien a vulputate amet malesuada."
+    },
+    {
+      "title": "The Right Quality",
+      "desc": "Nulla amet ut massa sapien nibh. Sed quis sollicitudin ut senectus nisl adipiscing posuere et a. Tincidunt consectetur sapien pellentesque vitae, nulla vitae sed feugiat. Consectetur hendrerit massa felis, et. Cursus tortor ut fames sapien a vulputate amet malesuada."
+    }
+  ],
+  "topics_u_cant_miss": [
+    {
+      "title": "Topics You Can't Miss",
+      "desc": "Nulla amet ut massa sapien nibh. Sed quis sollicitudin ut senectus nisl adipiscing posuere et a. Tincidunt consectetur sapien pellentesque vitae, nulla vitae sed feugiat. Consectetur hendrerit massa felis, et. Cursus tortor ut fames sapien a vulputate amet malesuada.",
+      "img-url": "https://github.com/ipankajchaudhary/Proffus-assignment/blob/main/proffus-assignment/public/images/topic1img.png?raw=true"
+    },
+    {
+      "title": "how to clean/cut your seafood",
+      "desc": "Nulla amet ut massa sapien nibh. Sed quis sollicitudin ut senectus nisl adipiscing posuere et a. Tincidunt consectetur sapien pellentesque vitae, nulla vitae sed feugiat. Consectetur hendrerit massa felis, et. Cursus tortor ut fames sapien a vulputate amet malesuada.",
+      "img-url": "https://github.com/ipankajchaudhary/Proffus-assignment/blob/main/proffus-assignment/public/images/topic2img.png?raw=true"
+    }
+  ],
+  "category": [
+    {
+      "title": "Fish",
+      "img": "https://github.com/ipankajchaudhary/Proffus-assignment/blob/main/proffus-assignment/public/images/fish1.png?raw=true"
+    },
+    {
+      "title": "Crustaceans",
+      "img": "https://github.com/ipankajchaudhary/Proffus-assignment/blob/main/proffus-assignment/public/images/fish2.png?raw=true"
+    },
+    {
+      "title": "Exotic",
+      "img": "https://github.com/ipankajchaudhary/Proffus-assignment/blob/main/proffus-assignment/public/images/fish3.png?raw=true"
+    }
+  ]
 }
