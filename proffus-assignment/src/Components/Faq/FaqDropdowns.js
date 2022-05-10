@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import "./Faqstyle.css";
 import { FiPlus } from "react-icons/fi";
 
-const FaqDropdowns = () => {
+const FaqDropdowns = ({ ques, ans }) => {
     const [active, setActive] = useState(false);
 
   const contentRef = useRef(null);
