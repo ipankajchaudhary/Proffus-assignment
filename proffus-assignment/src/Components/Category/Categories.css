@@ -48,3 +48,14 @@
       justify-content: space-around;
       /* margin-rightz: 10px; */
   }
+  
+.glance {
+  text-align: center;
+  font-size: 2rem;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+
+.glance > h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

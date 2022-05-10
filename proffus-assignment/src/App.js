@@ -55,7 +55,7 @@ function App() {
       <Categories cat={cat}/>
       <Faq faqs={fq}/>
       <Havearead har={har}/>
-      <Topicsucantmiss topic={topic}/>
+      <Topicsucantmiss topics={topic}/>
       <Footer/> 
       </>
   );
