@@ -31,12 +31,12 @@
     {
       "title": "Topics You Can't Miss",
       "desc": "Nulla amet ut massa sapien nibh. Sed quis sollicitudin ut senectus nisl adipiscing posuere et a. Tincidunt consectetur sapien pellentesque vitae, nulla vitae sed feugiat. Consectetur hendrerit massa felis, et. Cursus tortor ut fames sapien a vulputate amet malesuada.",
-      "img-url": "https://github.com/ipankajchaudhary/Proffus-assignment/blob/main/proffus-assignment/public/images/topic1img.png?raw=true"
+      "imgurl": "https://github.com/ipankajchaudhary/Proffus-assignment/blob/main/proffus-assignment/public/images/topic1img.png?raw=true"
     },
     {
       "title": "how to clean/cut your seafood",
       "desc": "Nulla amet ut massa sapien nibh. Sed quis sollicitudin ut senectus nisl adipiscing posuere et a. Tincidunt consectetur sapien pellentesque vitae, nulla vitae sed feugiat. Consectetur hendrerit massa felis, et. Cursus tortor ut fames sapien a vulputate amet malesuada.",
-      "img-url": "https://github.com/ipankajchaudhary/Proffus-assignment/blob/main/proffus-assignment/public/images/topic2img.png?raw=true"
+      "imgurl": "https://github.com/ipankajchaudhary/Proffus-assignment/blob/main/proffus-assignment/public/images/topic2img.png?raw=true"
     }
   ],
   "category": [

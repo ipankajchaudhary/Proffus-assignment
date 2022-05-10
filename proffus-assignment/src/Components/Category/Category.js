@@ -2,11 +2,11 @@ import React from 'react'
 import './Categories.css';
 
 
-const Category = () => {
+const Category = ({title, image}) => {
   return (
     <div className="category-container">
-    <img src="https://github.com/priyanshu4705/proffus/blob/master/src/assets/images/fish1.png?raw=true" />
-    <div className="category-title">FISH</div>
+    <img src={image} />
+    <div className="category-title">{title}</div>
   </div>
   )
 }

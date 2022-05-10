@@ -12,10 +12,10 @@ import Categories from './Components/Category/Categories';
 
 function App() {
   const [data, setData] = useState({});
-  const [faqs, setFaqs] = useState([]);
-  const [Havearead, setHavearead] = useState([]);
-  const [category, setCategory] = useState([]);
-  const [topicucantmiss, setTopicucantmiss] = useState([])
+  const [fq, setFq] = useState([]);
+  const [cat, setCat] = useState([]);
+  const [topic, setTopic] = useState([]);
+  const [har, setHar] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   useEffect(() => {
@@ -33,12 +33,14 @@ function App() {
       }
       let actualData = await response.json();
       setData(actualData);
-      setHavearead(actualData.Have_a_read);
-      setTopicucantmiss(actualData.topics_u_cant_miss);
-      setCategory(actualData.category);
+      setFq(actualData.faqs)
+      setHar(actualData.Have_a_read);
+      setTopic(actualData.topics_u_cant_miss);
+      setCat(actualData.category);
       setError(null);
     } catch(err) {
       setError(err.message);
+      console.log(Error);
       setData(null);
     } finally {
       setLoading(false);
@@ -50,10 +52,10 @@ function App() {
       <Header />
       
       <Howitworks />
-      <Categories category={category}/>
-      <Faq faqs={faqs}/>
-      <Havearead Havearead={Havearead}/>
-      <Topicsucantmiss topicucantmiss={topicucantmiss}/>
+      <Categories cat={cat}/>
+      <Faq faqs={fq}/>
+      <Havearead har={har}/>
+      <Topicsucantmiss topic={topic}/>
       <Footer/> 
       </>
   );
