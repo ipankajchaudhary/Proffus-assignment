@@ -12,41 +12,41 @@ import Categories from './Components/Category/Categories';
 
 function App() {
   const [data, setData] = useState({});
+  const [faqs, setFaqs] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   useEffect(() => {
-    const getData = async () => {
-      try {
-        const response = await fetch(
-          `https://raw.githubusercontent.com/ipankajchaudhary/Proffus-assignment/main/proffus-assignment/Data.json`
-        );
-        if (!response.ok) {
-          throw new Error(
-            `This is an HTTP error: The status is ${response.status}`
-          );
-        }
-        let actualData = await response.json();
-        setData(actualData);
-        setError(null);
-      } catch(err) {
-        setError(err.message);
-        setData(null);
-      } finally {
-        setLoading(false);
-      }  
-    }
-    console.log(data);
-    getData();
-    
+    getData();    
   }, [loading]);
-  // console.log(data);
+  const getData = async () => {
+    try {
+      const response = await fetch(
+        `https://raw.githubusercontent.com/ipankajchaudhary/Proffus-assignment/main/proffus-assignment/Data.json`
+      );
+      if (!response.ok) {
+        throw new Error(
+          `This is an HTTP error: The status is ${response.status}`
+        );
+      }
+      let actualData = await response.json();
+      setData(actualData);
+      setFaqs(actualData.faqs);
+      setError(null);
+    } catch(err) {
+      setError(err.message);
+      setData(null);
+    } finally {
+      setLoading(false);
+    }  
+  }
+  console.log(data);
   return (
     <>
       <Header />
       
       <Howitworks />
       <Categories/>
-      <Faq data={data.faq}/>
+      <Faq faqs={faqs}/>
       <Havearead />
       <Topicsucantmiss />
       <Footer/>
