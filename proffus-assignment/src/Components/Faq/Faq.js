@@ -6,7 +6,7 @@ import FaqDropdowns from "./FaqDropdowns";
 export default function Faq() {
   return (
     <>
-      <div className="container">
+      <div className="faq-container">
         <br />
               <div className="faq-header">FAQ</div>
               <div className="dropdowns mx-2">
