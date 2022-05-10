@@ -7,6 +7,8 @@ import Faq from './Components/Faq/Faq';
 import Havearead from './Components/Havearead/Havearead';
 import Topicsucantmiss from './Components/Topicsucantmiss/Topicsucantmiss';
 import Footer from './Components/Footer/Footer';
+import Howitworks from './Components/Howitworks/Howitworks';
+import Categories from './Components/Category/Categories';
 
 function App() {
   const [data, setData] = useState({});
@@ -37,11 +39,14 @@ function App() {
     getData();
     
   }, [loading]);
-  
+  // console.log(data);
   return (
     <>
       <Header />
-      <Faq />
+      
+      <Howitworks />
+      <Categories/>
+      <Faq data={data.faq}/>
       <Havearead />
       <Topicsucantmiss />
       <Footer/>

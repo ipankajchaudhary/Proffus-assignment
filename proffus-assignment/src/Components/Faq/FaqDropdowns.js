@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import "./Faqstyle.css";
 import { FiPlus } from "react-icons/fi";
 
-const FaqDropdowns = ({ ques, ans }) => {
+const FaqDropdowns = ({ ques, ans}) => {
     const [active, setActive] = useState(false);
 
   const contentRef = useRef(null);
@@ -26,8 +26,7 @@ const FaqDropdowns = ({ ques, ans }) => {
         <div>
           <div className="question-align">
             <h4 className="question-style">
-            Velit venenatis pretium mattis consectetur massa pretium mattis ? 
-            </h4>
+{ques}            </h4>
             <FiPlus
               className={
                 active ? `question-icon rotate` : `question-icon`
@@ -38,7 +37,7 @@ const FaqDropdowns = ({ ques, ans }) => {
             ref={contentRef}
             className={active ? `answer answer-divider` : `answer`}
           >
-            <p>Nulla amet ut massa sapien nibh. Sed quis sollicitudin ut senectus nisl adipiscing posuere et a. Tincidunt consectetur sapien pellentesque vitae, nulla vitae sed feugiat. Consectetur hendrerit massa felis, et. Cursus tortor ut fames sapien a vulputate amet malesuada.</p>
+            <p>{ans}</p>
           </div>
         </div>
       </button>

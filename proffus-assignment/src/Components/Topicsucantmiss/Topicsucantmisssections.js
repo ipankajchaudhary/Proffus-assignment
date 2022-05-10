@@ -2,7 +2,7 @@ import React from 'react'
 
 const Topicsucantmisssections = () => {
   return (
-      <div className='Topics-u-cant-miss-section-container border'>
+      <div className='Topics-u-cant-miss-section-container border mb-4'>
           <div className="left-container">
           <div className="Topics-u-cant-miss-section-header m-3">
             Topics you cant miss
